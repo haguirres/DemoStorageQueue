@@ -6,7 +6,7 @@ using Azure.Storage.Queues;
 
 namespace DemoStorageQueue{
     class Program{
-        static string storageConnectionString = "DefaultEndpointsProtocol=https;AccountName=stademoheas;AccountKey=bEjqKC1pb1BP8VR9kOE8Ub6xiNXg/Z0iJtLHX4LTCcZGBUHUpJn6rugf94eN5GqDOwdd02pFXknX+AStvmpSXg==;EndpointSuffix=core.windows.net";
+        static string storageConnectionString = "";
         static string queueName = "sample-queue";
         static QueueClient client = default!;
         static int numMessages = 250;
